@@ -1,0 +1,28 @@
+.toDoItemContainer{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.toDoItemComplete{
+    text-decoration: line-through;
+    display: inline-block;
+}
+
+.toDoItemInComplete{
+    display: inline-block;
+}
+
+.toDoItemTitle{
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.toDoToggle{
+    cursor: pointer;
+    float: right;
+    margin-right: 30px;
+    margin-top: 25px;
+    font-size: 12px;
+    font-weight: bold;
+}
